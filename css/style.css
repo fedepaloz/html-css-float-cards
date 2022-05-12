@@ -12,7 +12,7 @@ body {
 h1 {
     color: #E53170;
     text-align: center;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     padding: 20px;
 }
 
@@ -29,23 +29,44 @@ h2 {
 }
 
 
-.container-pics{margin: 0 auto;
-background-color: yellow;
-height: 300px;
-width: 900px;
+#container-pics {
+    margin: 0 auto;
+
+    height: 300px;
+    width: 1200px;
 }
 
-.face-pic{width: 100px;float:left;}
+.face-pic {
+    width: 100px;
+    float: left;
+    margin-right: 5px
+}
 
-.profile{;color: white;
-background-color: black;
-width: 30%;
-float: left;
+.profile {
 
+    color: white;
+    background-color: black;
+    width: 30%;
+    float: left;
+    margin: 10px
+    
 }
 
 
 
-.clearfix{content: "";
+.clearfix {
+    content: "";
     clear: both;
-    display: table;}
+    display: table;
+    
+}
+
+.mail {
+    color: #2682B7;
+    font-size: 15px;
+}
+
+.name {
+    font-weight: 700;
+}
+
